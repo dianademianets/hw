@@ -12,6 +12,7 @@ module.exports = {
         const data = await readFile(db);
         return JSON.parse(data.toString());
     },
+
     getUserByEmail: async (email) => {
         const data = await readFile(db);
         const DB = JSON.parse(data.toString());
@@ -24,6 +25,7 @@ module.exports = {
         DB.push(userObject);
         await writeFile(db, JSON.stringify(DB));
     },
+
     deleteUser: async (userId) => {
         const data = await readFile(db);
         const DB = JSON.parse(data.toString());
@@ -31,20 +33,3 @@ module.exports = {
         await writeFile(db, JSON.stringify(DB));
     }
 }
-// //В цьому способі взагалі не впевнена
-// const DB = require('../dataBase/users.json');
-//
-// module.exports = {
-//     getAllUsers: () => {
-//         return DB;
-//     },
-//     getUserByEmail: (email) =>
-//         DB.filter((user) => user.email !== email),
-//
-//     createUser: (userObject) => {
-//         DB.push(userObject);
-//     },
-//     deleteUser: (userId) => {
-//         DB.splice(userId, 1);
-//     }
-// }

@@ -1,4 +1,5 @@
 const userService = require('../service/user.service');
+const errorCodes = require('../constant/errorCodes.enum');
 
 module.exports = {
     getAllUsers: (req, res) => {
@@ -12,20 +13,20 @@ module.exports = {
     },
 
     getUserByEmail: (req, res) => {
-    try {
-        const {email} = req.params;
-        const user = userService.getUserByEmail(email);
-        res.json(user);
-    } catch (e) {
-        res.status(200).json(e.message);
-    }
-},
+        try {
+            const {email} = req.params;
+            const user = userService.getUserByEmail(email);
+            res.json(user);
+        } catch (e) {
+            res.status(errorCodes.OK).json(e.message);
+        }
+    },
     createUser: (req, res) => {
         try {
             userService.createUser(req.body);
 
         } catch (e) {
-            res.status(201).json(e.message);
+            res.status(errorCodes.CREATED).json(e.message);
         }
     },
     deleteUser: (req, res) => {
@@ -36,7 +37,7 @@ module.exports = {
             res.json(deleteUser);
 
         } catch (e) {
-            res.status(404).json(e.message);
+            res.status(errorCodes.NOT_FOUND).json(e.message);
         }
     }
 };
