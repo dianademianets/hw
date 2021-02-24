@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d74242d-14b4-477a-ba48-127bd5de91f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hw.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1800/Alisa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1800/Lina.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2000/Roma.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2000/Stepan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="9d74242d-14b4-477a-ba48-127bd5de91f2" name="Default Changelist" comment="node">
+      <change afterPath="$PROJECT_DIR$/constant/errorCodes.enum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataBase/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/error.messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/user.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/api.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/user.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1800/Alisa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1800/Lina.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2000/Roma.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2000/Stepan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/error.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/registration.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/users.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userslist/users.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ohO2UJaQvGwwYyU9uGOAykYIfV" />
@@ -33,7 +47,6 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -47,9 +60,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\hw" />
+      <recent name="C:\project\hw\userslist" />
+      <recent name="C:\project\hw\static" />
       <recent name="C:\project\hw\1800" />
       <recent name="C:\project\hw\2000" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,10 +81,49 @@
       <option name="presentableId" value="Default" />
       <updated>1613735150693</updated>
       <workItem from="1613735155850" duration="16482000" />
+      <workItem from="1613752352773" duration="4769000" />
+      <workItem from="1613832836362" duration="14468000" />
+      <workItem from="1613891224148" duration="5943000" />
+      <workItem from="1613978366501" duration="793000" />
+      <workItem from="1614064097587" duration="10689000" />
+      <workItem from="1614089256492" duration="886000" />
+      <workItem from="1614091163745" duration="400000" />
+      <workItem from="1614151823741" duration="14905000" />
     </task>
+    <task id="LOCAL-00001" summary="node">
+      <created>1613752486248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613752486248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="node">
+      <created>1613896082715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613896082715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
 </project>
