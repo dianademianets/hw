@@ -16,11 +16,13 @@ module.exports = {
         try {
             const {email} = req.params;
             const user = userService.getUserByEmail(email);
+
             res.json(user);
         } catch (e) {
             res.status(errorCodes.OK).json(e.message);
         }
     },
+
     createUser: (req, res) => {
         try {
             userService.createUser(req.body);
@@ -29,6 +31,7 @@ module.exports = {
             res.status(errorCodes.CREATED).json(e.message);
         }
     },
+
     deleteUser: (req, res) => {
         try {
             const {email} = req.params;

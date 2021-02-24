@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d74242d-14b4-477a-ba48-127bd5de91f2" name="Default Changelist" comment="node">
-      <change afterPath="$PROJECT_DIR$/constant/errorCodes.enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataBase/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/error/error.messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/user.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/api.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1800/Alisa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1800/Lina.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000/Roma.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2000/Stepan.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/error.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/registration.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/users.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userslist/users.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +70,8 @@
       <workItem from="1614064097587" duration="10689000" />
       <workItem from="1614089256492" duration="886000" />
       <workItem from="1614091163745" duration="400000" />
-      <workItem from="1614151823741" duration="14905000" />
+      <workItem from="1614151823741" duration="15012000" />
+      <workItem from="1614168230928" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1613752486248</created>
@@ -104,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613896082715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="node">
+      <created>1614167181736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167181736</updated>
+    </task>
+    <task id="LOCAL-00004" summary="node">
+      <created>1614168806105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614168806105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
